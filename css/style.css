@@ -1,0 +1,66 @@
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway',sans-serif;
+}
+
+.header-list {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: calc(16/12);
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+}
+
+.header-nav:hover {
+    color: #FF6C00;
+}
+
+.header-nav.link {
+text-decoration: none;
+}
+
+.header-btn {
+font-family: 'Open Sans'; 
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FF6C00;
+        border-radius: 25px;
+}
+
+
+/*--------HERO-----*/
+
+.hero-link.link {
+    text-decoration: none;
+}
+
+.hero-item{
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.2em;
+
+color: #303030;
+}
+.hero-item:hover {
+color: #FF6C00;
+}
+
+
+.hero-item {}
+
+.hero-link {}
+
+.link {}
+
+.hero-pre-title {}
+
+.hero-title {}
+
+.hero-after-title {}
