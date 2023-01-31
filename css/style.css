@@ -33,12 +33,21 @@ font-family: 'Open Sans';
         border-radius: 25px;
 }
 
-
+/* {
+    background-image:url('/images/Sliderimg\ 3.jpg');
+    background-repeat: no-repeat;
+    width: 1070px;
+    height: 680px;
+    background-position: center center;
+        background-attachment: fixed;
+}
+*/
 /*--------HERO-----*/
 
 .hero-link.link {
     text-decoration: none;
 }
+
 
 .hero-item{
 font-weight: 600;
