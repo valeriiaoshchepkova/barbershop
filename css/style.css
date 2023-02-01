@@ -1,75 +1,142 @@
+:root {
+background-color: #E5E5E5;;
 
+
+
+
+
+}
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway',sans-serif;
 }
 
-.header-list {
-        font-weight: 600;
-        font-size: 12px;
-        line-height: calc(16/12);
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-}
-
-.header-nav:hover {
-    color: #FF6C00;
-}
-
-.header-nav.link {
-text-decoration: none;
-}
-
-.header-btn {
-font-family: 'Open Sans'; 
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    border: 1px solid #FF6C00;
-        border-radius: 25px;
-}
-
-/* {
-    background-image:url('/images/Sliderimg\ 3.jpg');
+.background-slider{
     background-repeat: no-repeat;
     width: 1070px;
     height: 680px;
     background-position: center center;
-        background-attachment: fixed;
-}
-*/
-/*--------HERO-----*/
-
-.hero-link.link {
-    text-decoration: none;
+    background-attachment: fixed;
 }
 
+/*---Header---*/
+.nav {}
 
-.hero-item{
-font-weight: 600;
-font-size: 11px;
-line-height: 15px;
-letter-spacing: 0.2em;
+.header-logo {}
 
-color: #303030;
-}
-.hero-item:hover {
-color: #FF6C00;
-}
+.header-nav {}
 
+.header-list {}
+
+.link {}
+
+.header-btn {}
+
+.background-slider {}
+
+
+/*---Hero---*/
+
+.hero {}
+
+.hero-list {}
+
+.list {}
 
 .hero-item {}
 
 .hero-link {}
-
-.link {}
 
 .hero-pre-title {}
 
 .hero-title {}
 
 .hero-after-title {}
+
+/*-----------About-------------*/
+.about {}
+
+.about-list {}
+
+.about-item {}
+
+.about-pic {}
+
+.about-pre {}
+
+.title {}
+
+.about-title {}
+
+.about-after {}
+
+.about-text {}
+
+.about-btn {}
+
+.btn {}
+
+/*-----Prices-------*/
+
+.prices {}
+
+.prices-pre {}
+
+.prices-title {}
+
+.prices-list {}
+
+.prices-item {}
+
+.prices-item-text {}
+
+.prices-btn {}
+
+
+/*----------Benefits-------*/
+
+.benefits {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.text {}
+
+.benefits-pre {}
+
+.benefits-title {}
+
+.benefits-after {}
+
+/*----Our barbers------*/
+
+.barbers {}
+
+.barbers-pre-title {}
+
+.pre-title {}
+
+.barbers-title {}
+
+.barbers-list {}
+
+.barbers-item {}
+
+.barbers-item-text {}
+
+/*-----Gallery------*/
+
+.gallery {}
+
+.gallery-text {}
+
+.hidden {}
+
+.gallery-list {}
+
+.gallery-item {}
+
+
+/*----Footer-----*/
