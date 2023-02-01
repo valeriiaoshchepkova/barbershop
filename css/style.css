@@ -1,13 +1,13 @@
 :root {
-background-color: #E5E5E5;;
-
-
-
-
+--main-background-color: #E5E5E5;;
+--main-title-color:#FFFFFF;
+--second-title-color:#9DA4BD;;
+--main-btn-color: #ffffff;
+--second-btn-color: #303030;
 
 }
 body {
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway',sans-serif;
 }
@@ -25,11 +25,31 @@ body {
 
 .header-logo {}
 
-.header-nav {}
+.header-nav {
+    color: var(--main-title-color);
+    list-style-type: none;
 
-.header-list {}
+}
 
-.link {}
+.header-nav.link {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.header-nav.link:hover,
+.header-nav.link:focus {    
+    color: #FF6C00;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
 
 .header-btn {}
 
